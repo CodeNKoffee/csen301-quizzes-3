@@ -22,7 +22,7 @@ class BTree {
     if (node.data <= min || node.data >= max) 
       return false;
 
-    return isBST(node.left, min, node.data) && isBST(node.right, max, node.data);
+    return isBST(node.left, min, node.data) && isBST(node.right, node.data, max);
   }
 
   public static void main(String[] args) {
