@@ -33,22 +33,13 @@ class BTree {
 		preOrder(node.right);
 	}
 
-  public void printTree(Node root, String prefix, boolean isTail) {
-    if (root != null) {
-      System.out.println(prefix + (isTail ? "└── " : "├── ") + root.data);
-      printTree(root.left, prefix + (isTail ? "    " : "│   "), false);
-      printTree(root.right, prefix + (isTail ? "    " : "│   "), true);
-    }
-  }
-
 	public static void main(String[] args) {
 		BTree tree = new BTree();
 		int arr[] = new int[] { 1, 2, 3, 4 };
 		int n = arr.length;
+    
 		tree.root = tree.sortedArrayToBST(arr, 0, n - 1);
 		System.out.println("Preorder traversal of constructed BST");
 		tree.preOrder(tree.root);
-    System.out.println();
-    tree.printTree(tree.root, "", true);
 	}
 }
