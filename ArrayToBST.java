@@ -11,7 +11,7 @@ class Node {
 class BTree {
 	Node root;
 
-	Node sortedArrayToBST(int arr[], int start, int end) {
+	public Node sortedArrayToBST(int arr[], int start, int end) {
 		if (start > end) 
 			return null;
 
