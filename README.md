@@ -12,8 +12,8 @@ This repository includes questions categorized into different levels, each focus
 - **LEVEL UNDETERMINED - POP LAB:** Challenging questions sourced from the POP Lab, covering various operations on binary trees.
 - **LEVEL UNDETERMINED - CUSTOM MADE:** Unique challenges created by the author to test and enhance your understanding of Binary Trees.
 
-<mark>
-<b>Note:</b> The determination of the difficulty level for each question is indicated through comments at the top of each question file. Look for comments such as `// LEVEL 1`, `// LEVEL 2`, or `// LEVEL 3`, `etc` to identify the difficulty level of a particular question.
-</mark>
+
+<span style="background-color: #D90"><b>Note:</b> The determination of the difficulty level for each question is indicated through comments at the top of each question file. Look for comments such as `// LEVEL 1`, `// LEVEL 2`, or `// LEVEL 3`, `etc` to identify the difficulty level of a particular question.</span>
+
 
 Feel free to explore questions across different levels and categories to improve your proficiency in Binary Tree data structures. Happy coding!
