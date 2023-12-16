@@ -1,3 +1,5 @@
+// LEVEL UNDETERMINED - CUSTOM MADE
+
 class Node {
   int data;
   Node left, right;

@@ -1,3 +1,5 @@
+// LEVEL 1
+
 class Node {
 	int data;
 	Node left, right;
